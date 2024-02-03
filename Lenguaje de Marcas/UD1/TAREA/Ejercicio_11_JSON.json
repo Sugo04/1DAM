@@ -1,0 +1,68 @@
+{
+    "Unidades": "cm",
+
+"Elementos_de_un_gráfico_vectorial_2D":{
+
+    "Punto":
+        {
+            "x": 6,
+            "y": 23
+        }
+      
+    ,
+
+    "Circunferencia":
+    {
+        "Punto_Centro":
+            {
+                "x": 45,
+                "y": -8
+            },
+        
+
+       "Radio": 9
+    },
+      
+
+
+    "Recta":{
+        "punto_0": 
+      {  
+        "x": 45,
+        "y": -8
+      },
+
+      "punto_F": 
+      {
+        "x": 45,
+        "y": -8
+      }
+    },
+
+
+      
+
+    "Rectángulo":{
+
+        "Right_Sup_Point":{
+            "x": -41,
+        "y": 54
+        },
+
+        
+
+      "Left_Sup_Point":{
+        "x": -20,
+        "y":  2
+      }
+
+        
+
+    }
+
+
+      
+}
+
+   
+}

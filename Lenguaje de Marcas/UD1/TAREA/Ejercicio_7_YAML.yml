@@ -1,0 +1,60 @@
+Ejercicio 7
+%YAML 1.2
+---
+#Escriba un documento para almacenar los coches que tiene puestos a la venta un concesionario:
+#
+#El concesionario se dedica a vender distintos modelos de una misma marca de coches.
+#
+#De cada modelo es necesario recoger la cilindrada, los caballos de vapor, la velocidad máxima, el número de plazas  
+#y los kilómetros que tiene (el concesionario también vende coches de segunda mano).
+#
+#También se quiere almacenar cuántos coches de cada modelo hay en el concesionario e identificar cada uno de ellos.
+#
+#Un coche puede estar reservado o no.
+
+marca: Renault
+
+modelo_coches: 
+#estos son los modelos.
+   - modelo: Rojo Bermellón
+     id_modelo: R665546-76
+     #la clindrada se cuenta en cc
+     cilindrada: 125
+     #los caballos de vaapor son CV
+     Caballos de Vapor: 14.96
+     #La velocidad máxima es expresada en km/h
+     Velocidad Máxima:
+     Número de plazas: 7
+    
+        
+   - modelo: Blanco 
+     id_modelo: R876876-98
+     cilindrada: 125
+     Caballos de Vapor: 14.96
+     Velocidad Máxima: 185
+     Número de plazas: 2
+    
+       
+   - modelo: Gris Mate
+     id_modelo: R898765-32
+     cilindrada: 125
+     Caballos de Vapor: 14.96
+     Velocidad Máxima: 185
+     Número de plazas: 5
+     
+
+ventas:
+
+  - id_modelo: R665546-76
+    reservado: true
+    #Los Kilómetro se contarán con la unidad km.
+    Km: 30000
+
+  - id_modelo: R898765-32
+    reservado: false
+    Km: 0
+
+  - id_modelo: R876876-98
+    reservado: false
+    Km: 200
+

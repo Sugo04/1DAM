@@ -1,0 +1,97 @@
+
+{
+
+"marca": "Renault",
+
+"modelo_coches": [
+    {
+    "modelo": "Rojo Bermellón",
+
+    "id_modelo": "R665546-76",
+
+    "cilindrada": 125,
+
+    "Caballos de Vapor": 14.96,
+   
+    "Velocidad Máxima": 185,
+
+    "Número de plazas": 7
+    },
+    
+
+
+    {
+        "modelo": "Blanco", 
+        "id_modelo": "R876876-98",
+        "cilindrada": "125",
+        "Caballos de Vapor": 14.96,
+        "Velocidad Máxima": 185,
+        "Número de plazas": 2
+        
+    },
+   
+   {
+    "modelo": "Gris Mate",
+   "id_modelo": "R898765-32",
+   "cilindrada": 125,
+   "Caballos de Vapor": 14.96,
+   "Velocidad Máxima": 185,
+   "Número de plazas": 5
+   }
+    
+],
+
+   
+     
+
+"ventas":[
+    {
+        "id_coche": "AV98976J",
+        "reservado": "9809_ab",
+        "Km": 30000
+    },
+    {
+        "id_coche": "C65756GF",
+        "reservado": "7650_nc",
+        "Km": 200
+    },
+   
+    {
+        "id_coche": "43543LMN",
+        "reservado": null,
+        "Km": 0
+    }
+  
+],
+
+   
+
+
+"clientes":
+[
+    {
+        "nombre": "Manolo Gutierrez Saez",
+        "id_cliente":"9809_ab",
+        "teléfono": 687899065,
+        "dirección": "C/imag inaria nº28"
+    
+    },  
+    {
+    "nombre": "Manolo Gutierrez Saez",
+    "id_cliente": "7650_nc",
+    "teléfono": 650987654,
+    "dirección": "C/imag inaria6 nº0"
+   
+    }, 
+
+    {
+    "nombre": "Javier Sánchez Galdivar",
+    "id_cliente": "2314_ab",
+    "teléfono": 687899065,
+    "dirección": "C/imag inaria3 nº90"
+    } 
+]
+}
+  
+
+

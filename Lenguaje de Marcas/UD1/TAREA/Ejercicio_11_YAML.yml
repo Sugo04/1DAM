@@ -1,0 +1,55 @@
+Ejercicio 11
+%YAML 1.2
+---
+#Diseñe un documento para almacenar la información de un gráfico vectorial en 2 dimensiones. Los elementos que pueden definirse en ese documento son:
+#
+#Punto: Se definirá con dos coordenadas: x,y.
+#
+#Circunferencia: se define por un centro (coordenadas x,y) y un radio.
+#
+#Recta: se define por dos puntos: el inicial y el final.
+#
+#Rectángulo: se define por dos puntos: la esquina superior derecha y la esquina superior izquierda.
+#
+#Todo elemento debe estar inequívocamente identificado, y debe conocerse de alguna forma cuál es la unidad de medida (m, cm, etc.) en que están expresados todos los números que aparecen.
+
+Unidades: cm
+#los números usados para indicar dónde se encuentra un punto, no necesitan de unidad
+Elementos_de_un_gráfico_vectorial_2D:
+
+   - Punto:
+
+      x: 6
+      y: 23
+
+
+   - Circunferencia:
+    
+      Punto_Centro:
+
+        x: 45
+        y: -8
+
+      Radio: 9 
+
+   - Recta: 
+
+
+      punto_0: -43
+
+      punto_F: -23
+
+   - Rectángulo:
+
+
+      Right_Sup_Point:
+
+        x: -41
+        y: 54
+
+      Left_Sup_Point:
+
+        x: -20
+        y:  2
+
+

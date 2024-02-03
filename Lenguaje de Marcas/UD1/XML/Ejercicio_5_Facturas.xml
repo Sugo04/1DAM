@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Ejercicio_5_Facturas: 
+    Diseñe un documento para almacenar las facturas generadas por una empresa. Téngase en cuenta que:
+    Cada factura tiene un código.
+    La factura también necesita la fecha de emisión.
+    En la factura aparecen los datos del cliente (dni, nombre, dirección, código postal, población).
+    De cada producto que se ha comprado debe aparecer la cantidad de productos comprados, la denominación y el precio unitario.
+    Se debe guardar el IVA de cada producto.
+    Si es necesario se indicara un descuento al importe total de la factura.
+-->
+
+<clientes>
+    <cliente ID="876876-kjg">
+        <Nombre>Ramón</Nombre>
+
+        <DNI>85875765875R</DNI> 
+
+        <Dirección>C/imag inaria3 nº90</Dirección> 
+
+        <Código_postal>43555</Código_postal> 
+
+        <Población>Cádiz</Población> 
+        <Facturas>
+            <factura código="NA-989988">
+             <fecha_de_emisión>2014-04-22</fecha_de_emisión> 
+
+             <Producto_comprado>
+                  <producto nombre="Pokeball"> 
+                        <cantidad>9</cantidad> 
+                        <Precio_unidad>1.26</Precio_unidad> 
+                        <IVA>23</IVA> 
+                    </producto>
+
+                    <producto nombre="Cola de Fénix"> 
+
+                        <cantidad>2</cantidad> 
+
+                        <Precio_unidad>47.5</Precio_unidad> 
+
+                        <IVA>23%</IVA>
+                    </producto>
+              </Producto_comprado> <!--Todos los objetos se compran en unidades, y su moneda es el euro-->
+             <descuento>7%</descuento> 
+            </factura>
+
+        
+    
+      <factura código="KS-347872">
+         <fecha_de_emisión>2000-05-12</fecha_de_emisión> 
+
+         <Producto_comprado>
+            <producto nombre="Mandoble">
+             <cantidad>1</cantidad>
+
+             <Precio_unidad>98</Precio_unidad> 
+
+             <IVA>23%</IVA>
+            </producto>
+
+            
+
+            <producto nombre="Cuerno de Mamuth">
+             <cantidad>10</cantidad> 
+
+             <Precio_unidad>100</Precio_unidad> 
+
+             <IVA>23%</IVA> 
+            </producto>
+
+            
+         </Producto_comprado>
+
+         <descuento>2%</descuento> 
+      </factura>
+
+        
+        </Facturas> 
+      
+    </cliente>
+  
+
+    <cliente ID="654654-jsj">
+        <Nombre>Ramon</Nombre> 
+        <DNI>6873531875V</DNI> 
+        <Dirección> C/imag inaria2 nº40</Dirección>
+        <Código_postal>22890</Código_postal> 
+        <Población>Madrid</Población> 
+        <Facturas>
+            <factura código="BL-283676">
+                <fecha_de_emisión>1987-11-05</fecha_de_emisión> 
+
+                <Producto_comprado>
+                    <producto nombre="Cola Slowpoke">
+                        <cantidad>1</cantidad>
+
+                        <Precio_unidad>6317</Precio_unidad> 
+
+                        <IVA>23%</IVA> 
+
+                    </producto>
+
+                    
+               <descuento>4.75%</descuento> 
+                </Producto_comprado>
+            </factura>
+        </Facturas>  
+    </cliente> 
+</clientes>

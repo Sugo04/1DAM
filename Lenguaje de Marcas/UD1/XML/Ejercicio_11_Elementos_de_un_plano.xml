@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Ejercicio_11_Elementos_de_un_plano: 
+   Diseñe un documento para almacenar la información de un gráfico vectorial en 2 dimensiones. Los elementos que pueden definirse en ese documento son:
+   Punto: Se definirá con dos coordenadas: x,y.
+   Circunferencia: se define por un centro (coordenadas x,y) y un radio.
+   Recta: se define por dos puntos: el inicial y el final.
+   Rectángulo: se define por dos puntos: la esquina superior derecha y la esquina superior izquierda.
+   Todo elemento debe estar inequívocamente identificado, y debe conocerse de alguna forma cuál es la unidad de medida (m, cm, etc.) 
+   en que están expresados todos los números que aparecen. 
+-->
+
+
+<Elementos_de_un_gráfico_vectorial_2D unidad= "cm">
+    <!--los números usados para indicar dónde se encuentra un punto, no necesitan de unidad-->
+    <Punto>
+
+        <x>6</x>
+        <y>23</y>
+
+    </Punto>
+
+    <Circunferencia>
+      
+         <Punto_Centro>
+            <x>45</x>
+            <y>-8</y>
+         </Punto_Centro>
+         <!--El radio utiliza la unidad de cm-->
+         <Radio>9</Radio> 
+
+    </Circunferencia>
+
+    <Recta>
+
+         <punto_0>
+            <x>-43</x>
+            <y>-23</y>
+         </punto_0>
+            
+         <punto_F>
+            <x>-43</x>
+            <y>8</y>
+         </punto_F>
+
+    </Recta>
+
+    <Rectángulo>
+
+      <Right_Sup_Point>
+         <x>-41</x>
+         <y>54</y>
+      </Right_Sup_Point>
+
+      <Left_Sup_Point>
+         <x>-20</x>
+         <y>2</y>
+      </Left_Sup_Point>
+
+    </Rectángulo>
+
+</Elementos_de_un_gráfico_vectorial_2D>

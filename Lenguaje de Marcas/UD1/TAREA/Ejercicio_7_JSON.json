@@ -1,0 +1,67 @@
+
+{
+
+    "marca": "Renault",
+    
+    "modelo_coches": [
+        {
+        "modelo": "Rojo Bermellón",
+    
+        "id_modelo": "R665546-76",
+    
+        "cilindrada": 125,
+    
+        "Caballos de Vapor": 14.96,
+       
+        "Velocidad Máxima": 185,
+    
+        "Número de plazas": 7
+        },
+        
+    
+    
+        {
+            "modelo": "Blanco", 
+            "id_modelo": "R876876-98",
+            "cilindrada": "125",
+            "Caballos de Vapor": 14.96,
+            "Velocidad Máxima": 185,
+            "Número de plazas": 2
+            
+        },
+       
+       {
+        "modelo": "Gris Mate",
+       "id_modelo": "R898765-32",
+       "cilindrada": 125,
+       "Caballos de Vapor": 14.96,
+       "Velocidad Máxima": 185,
+       "Número de plazas": 5
+       }
+        
+    ],
+    
+       
+         
+    
+    "ventas":[
+        {
+            "id_coche": "AV98976J",
+            "reservado": true,
+            "Km": 30000
+        },
+        {
+            "id_coche": "C65756GF",
+            "reservado": true,
+            "Km": 200
+        },
+       
+        {
+            "id_coche": "43543LMN",
+            "reservado": false,
+            "Km": 0
+        }
+      
+    ]
+    
+}    

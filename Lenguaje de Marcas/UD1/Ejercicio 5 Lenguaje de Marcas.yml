@@ -1,0 +1,44 @@
+Ejercicio 5 Lenguaje de Marcas
+%YAML 1.2
+---
+#Diseñe un documento para almacenar las facturas generadas por una empresa. Téngase en cuenta que:
+
+#Cada factura tiene un código.
+
+#La factura también necesita la fecha de emisión.
+
+#En la factura aparecen los datos del cliente (dni, nombre, dirección, código postal, población).
+
+#De cada producto que se ha comprado debe aparecer la cantidad de productos comprados, la denominación y el precio unitario.
+
+#Se debe guardar el IVA de cada producto.
+
+#Si es necesario se indicara un descuento al importe total de la factura.
+ - cliente:
+
+  - datos:
+      Nombre:
+
+      DNI:
+
+      Dirección:
+
+      Código postal:
+
+      Población:
+
+  - Factura:
+
+    código:
+
+      - Producto comprado:
+
+            nombre producto:
+
+            cantidad:
+
+            Precio unidad:
+
+            IVA: 
+
+    descuento:

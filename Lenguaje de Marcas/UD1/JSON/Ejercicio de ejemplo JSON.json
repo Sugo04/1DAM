@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "Tortilla española" ,
+        "tiempo": 45,
+        "ingrdientes":[
+            {"nombre": "Patata", "unidad": "pieza", "cantidad": 2},
+            {"nombre": "Huevo", "unidad": "pieza", "cantidad": 2},
+            {"nombre": "Cebolla", "unidad": "pieza", "cantidad": 0.25},
+            {"nombre": "Aceite", "unidad": "ml", "cantidad": 20},
+            {"nombre": "Sal", "unidad": "mg", "cantidad": 4}
+        ]
+    },
+
+    {
+        "nombre": "Bocata de sardinas" ,
+    "tiempo": 2,
+    "ingrdientes":[
+        {"nombre": "Pan", "unidad": "pieza", "cantidad": 2},
+        {"nombre": "Aceite", "unidad": "ml", "cantidad": 10},
+        {"nombre": "Sardina", "unidad": "pieza", "cantidad": 4}
+    ]
+    }
+
+]

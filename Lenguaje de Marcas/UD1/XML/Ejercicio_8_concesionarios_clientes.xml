@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     Ejercicio_8_concersionarios_clientes: 
+     Retome el ejemplo del ejercicio anterior, pero enriquezca el documento 
+    para que se conozca los del cliente que ha realizado una determinada reserva (nombre, dirección, tlfo).
+-->
+
+<concesionario marca="Renault">
+
+    <modelo_coches>
+     <!--#estos son los modelos.-->
+        <coche id_modelo="R665546-76">
+            <modelo>  Rojo Bermellón </modelo>
+            <!--#la clindrada se cuenta en cc-->
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima> 
+            <Número_de_plazas>7</Número_de_plazas> 
+        </coche>
+        
+            
+        <coche id_modelo="R876876-98">
+            <modelo>Blanco</modelo> 
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima><cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima>
+            <Número_de_plazas>2</Número_de_plazas> 
+        
+        </coche> 
+        
+            
+        <coche id_modelo= "R898765-32">
+            <modelo>Gris Mate</modelo> 
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima>
+            <Número_de_plazas>5</Número_de_plazas>
+        </coche>
+    
+    </modelo_coches> 
+
+    <ventas>
+        <!-- Sino se encuentra <reservado></reservado> es que el auto no había sido reservado-->
+        <venta id_coche= "AV98976J">
+            <reservado>9809_ab</reservado> 
+            <!-- Los Kilómetro se contarán con la unidad km. -->
+            <Km>30000</Km> 
+        </venta>
+        
+    
+        <venta id_coche= "C65756GF">
+            <reservado> 7650_nc</reservado>
+            <Km> 200 </Km>
+        </venta>
+        
+    
+        <venta id_coche= "43543LMN">
+            <Km> 0 </Km>
+        </venta>
+        
+    </ventas>
+
+    
+
+
+    <clientes>
+        <cliente nombre= "Manolo Gutierrez Saez">
+            <id_cliente>9809_ab</id_cliente> 
+            <teléfono>687899065</teléfono> 
+            <dirección>C/imag inaria nº28</dirección> 
+        </cliente>
+        
+        
+        <cliente nombre= "Manolo Gutierrez Saez">
+            <id_cliente>7650_nc</id_cliente> 
+            <teléfono>650987654</teléfono> 
+            <dirección>C/imag inaria6 nº0</dirección> 
+        </cliente>
+        
+        
+
+        <cliente nombre= "Javier Sánchez Galdivar">
+            <id_cliente>2314_ab</id_cliente> 
+            <teléfono>687899065</teléfono> 
+            <dirección>C/imag inaria3 nº90</dirección> 
+        </cliente>
+        
+    </clientes>
+    
+    
+</concesionario>
+   

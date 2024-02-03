@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Ejercicio_7_concesionario:
+    Escriba un documento para almacenar los coches que tiene puestos a la venta un concesionario:
+    El concesionario se dedica a vender distintos modelos de una misma marca de coches.
+    De cada modelo es necesario recoger la cilindrada, los caballos de vapor, la velocidad máxima, el número de plazas  
+    y los kilómetros que tiene (el concesionario también vende coches de segunda mano).
+    También se quiere almacenar cuántos coches de cada modelo hay en el concesionario e identificar cada uno de ellos.
+    Un coche puede estar reservado o no.
+ -->
+<concesionario marca="Renault">
+
+    <modelo_coches>
+     <!--#estos son los modelos.-->
+        <coche id_modelo="R665546-76">
+            <modelo>  Rojo Bermellón </modelo>
+            <!--#la clindrada se cuenta en cc-->
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima> 
+            <Número_de_plazas>7</Número_de_plazas> 
+        </coche>
+        
+            
+        <coche id_modelo="R876876-98">
+            <modelo>Blanco</modelo> 
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima><cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima>
+            <Número_de_plazas>2</Número_de_plazas> 
+        
+        </coche> 
+        
+            
+        <coche id_modelo= "R898765-32">
+            <modelo>Gris Mate</modelo> 
+            <cilindrada>125</cilindrada> 
+            <!--#los caballos de vaapor son CV-->
+            <Caballos_de_Vapor>14.96</Caballos_de_Vapor> 
+            <!--#La velocidad máxima es expresada en km/h-->
+            <Velocidad_Máxima>185</Velocidad_Máxima>
+            <Número_de_plazas>5</Número_de_plazas>
+        </coche>
+    
+    </modelo_coches> 
+
+    <ventas>
+        <!-- Sino se encuentra <reservado></reservado> es que el auto no había sido reservado-->
+        <venta id_coche= "AV98976J">
+            <reservado>9809_ab</reservado> 
+            <!-- Los Kilómetro se contarán con la unidad km. -->
+            <Km>30000</Km> 
+        </venta>
+        
+    
+        <venta id_coche= "C65756GF">
+            <reservado> 7650_nc</reservado>
+            <Km> 200 </Km>
+        </venta>
+        
+    
+        <venta id_coche= "43543LMN">
+            <Km> 0 </Km>
+        </venta>
+        
+    </ventas>
+</concesionario>
